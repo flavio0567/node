@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+  <link rel="stylesheet" type="text/css" href="/stylesheets/style.css">
+  <body>
+       <h1>Hello, this is my first Server!</h1>
+
+      <h1>DOJOS!</h1><br>
+      <h2>Register Dojos:</h2>
+        <form method="post" action="/process">
+            <input type="hidden"   name="action" value="register">
+            <input type="text" placeholder="First name" name="first_name">
+            <input type="text" placeholder="Last name" name="last_name">
+            <input type="text" placeholder="Email" name="email">
+            <input type="password" placeholder="Password" name="password">
+            <input type="submit" value="Register"> Click now!!!
+        </form>
+        
+  </body>
+</html>
