@@ -1,0 +1,31 @@
+h1 {
+    color: #369;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 250%;
+  }
+
+.container {
+    width: 1070px;
+    height: 250px;
+    display: inline-block
+}
+
+.left {
+    display: inline-block
+}
+
+.mid_1 {
+    display: inline-block
+}
+
+.mid_2 {
+    display: inline-block
+}
+
+.right {
+    display: inline-block
+}
+
+.on { background-color: yellow; }
+
+.off { background-color: transparent; }
